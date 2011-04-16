@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB34CA3D135A1942009ACDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB34CA3C135A1942009ACDC2 /* UIKit.framework */; };
+		EB34CA3F135A1942009ACDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB34CA3E135A1942009ACDC2 /* Foundation.framework */; };
+		EB34CA41135A1942009ACDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB34CA40135A1942009ACDC2 /* CoreGraphics.framework */; };
+		EB34CA47135A1942009ACDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB34CA45135A1942009ACDC2 /* InfoPlist.strings */; };
+		EB34CA4A135A1942009ACDC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34CA49135A1942009ACDC2 /* main.m */; };
+		EB34CA4D135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34CA4C135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.m */; };
+		EB34CA50135A1942009ACDC2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB34CA4E135A1942009ACDC2 /* MainWindow.xib */; };
+		EB34CA53135A1942009ACDC2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34CA52135A1942009ACDC2 /* RootViewController.m */; };
+		EB34CA56135A1942009ACDC2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB34CA54135A1942009ACDC2 /* RootViewController.xib */; };
+		EB34CA5D135A1942009ACDC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB34CA3C135A1942009ACDC2 /* UIKit.framework */; };
+		EB34CA5E135A1942009ACDC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB34CA3E135A1942009ACDC2 /* Foundation.framework */; };
+		EB34CA5F135A1942009ACDC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB34CA40135A1942009ACDC2 /* CoreGraphics.framework */; };
+		EB34CA67135A1942009ACDC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB34CA65135A1942009ACDC2 /* InfoPlist.strings */; };
+		EB34CA6A135A1942009ACDC2 /* Puzha_RSS_FeederTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EB34CA69135A1942009ACDC2 /* Puzha_RSS_FeederTests.h */; };
+		EB34CA6C135A1942009ACDC2 /* Puzha_RSS_FeederTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB34CA6B135A1942009ACDC2 /* Puzha_RSS_FeederTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB34CA60135A1942009ACDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB34CA2F135A1942009ACDC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB34CA37135A1942009ACDC2;
+			remoteInfo = "Puzha RSS Feeder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB34CA38135A1942009ACDC2 /* Puzha RSS Feeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Puzha RSS Feeder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB34CA3C135A1942009ACDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB34CA3E135A1942009ACDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB34CA40135A1942009ACDC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB34CA44135A1942009ACDC2 /* Puzha RSS Feeder-Info.plist */ = {isa = PBXFileReference; path = "Puzha RSS Feeder-Info.plist"; sourceTree = "<group>"; };
+		EB34CA46135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB34CA48135A1942009ACDC2 /* Puzha RSS Feeder-Prefix.pch */ = {isa = PBXFileReference; path = "Puzha RSS Feeder-Prefix.pch"; sourceTree = "<group>"; };
+		EB34CA49135A1942009ACDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB34CA4B135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.h */ = {isa = PBXFileReference; path = Puzha_RSS_FeederAppDelegate.h; sourceTree = "<group>"; };
+		EB34CA4C135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzha_RSS_FeederAppDelegate.m; sourceTree = "<group>"; };
+		EB34CA4F135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EB34CA51135A1942009ACDC2 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		EB34CA52135A1942009ACDC2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EB34CA55135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		EB34CA5C135A1942009ACDC2 /* Puzha RSS FeederTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puzha RSS FeederTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB34CA64135A1942009ACDC2 /* Puzha RSS FeederTests-Info.plist */ = {isa = PBXFileReference; path = "Puzha RSS FeederTests-Info.plist"; sourceTree = "<group>"; };
+		EB34CA66135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB34CA68135A1942009ACDC2 /* Puzha RSS FeederTests-Prefix.pch */ = {isa = PBXFileReference; path = "Puzha RSS FeederTests-Prefix.pch"; sourceTree = "<group>"; };
+		EB34CA69135A1942009ACDC2 /* Puzha_RSS_FeederTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puzha_RSS_FeederTests.h; sourceTree = "<group>"; };
+		EB34CA6B135A1942009ACDC2 /* Puzha_RSS_FeederTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzha_RSS_FeederTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB34CA35135A1942009ACDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB34CA3D135A1942009ACDC2 /* UIKit.framework in Frameworks */,
+				EB34CA3F135A1942009ACDC2 /* Foundation.framework in Frameworks */,
+				EB34CA41135A1942009ACDC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB34CA58135A1942009ACDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB34CA5D135A1942009ACDC2 /* UIKit.framework in Frameworks */,
+				EB34CA5E135A1942009ACDC2 /* Foundation.framework in Frameworks */,
+				EB34CA5F135A1942009ACDC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB34CA2D135A1942009ACDC2 = {
+			isa = PBXGroup;
+			children = (
+				EB34CA42135A1942009ACDC2 /* Puzha RSS Feeder */,
+				EB34CA62135A1942009ACDC2 /* Puzha RSS FeederTests */,
+				EB34CA3B135A1942009ACDC2 /* Frameworks */,
+				EB34CA39135A1942009ACDC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB34CA39135A1942009ACDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB34CA38135A1942009ACDC2 /* Puzha RSS Feeder.app */,
+				EB34CA5C135A1942009ACDC2 /* Puzha RSS FeederTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB34CA3B135A1942009ACDC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB34CA3C135A1942009ACDC2 /* UIKit.framework */,
+				EB34CA3E135A1942009ACDC2 /* Foundation.framework */,
+				EB34CA40135A1942009ACDC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB34CA42135A1942009ACDC2 /* Puzha RSS Feeder */ = {
+			isa = PBXGroup;
+			children = (
+				EB34CA4B135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.h */,
+				EB34CA4C135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.m */,
+				EB34CA4E135A1942009ACDC2 /* MainWindow.xib */,
+				EB34CA51135A1942009ACDC2 /* RootViewController.h */,
+				EB34CA52135A1942009ACDC2 /* RootViewController.m */,
+				EB34CA54135A1942009ACDC2 /* RootViewController.xib */,
+				EB34CA43135A1942009ACDC2 /* Supporting Files */,
+			);
+			path = "Puzha RSS Feeder";
+			sourceTree = "<group>";
+		};
+		EB34CA43135A1942009ACDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB34CA44135A1942009ACDC2 /* Puzha RSS Feeder-Info.plist */,
+				EB34CA45135A1942009ACDC2 /* InfoPlist.strings */,
+				EB34CA48135A1942009ACDC2 /* Puzha RSS Feeder-Prefix.pch */,
+				EB34CA49135A1942009ACDC2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB34CA62135A1942009ACDC2 /* Puzha RSS FeederTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB34CA69135A1942009ACDC2 /* Puzha_RSS_FeederTests.h */,
+				EB34CA6B135A1942009ACDC2 /* Puzha_RSS_FeederTests.m */,
+				EB34CA63135A1942009ACDC2 /* Supporting Files */,
+			);
+			path = "Puzha RSS FeederTests";
+			sourceTree = "<group>";
+		};
+		EB34CA63135A1942009ACDC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB34CA64135A1942009ACDC2 /* Puzha RSS FeederTests-Info.plist */,
+				EB34CA65135A1942009ACDC2 /* InfoPlist.strings */,
+				EB34CA68135A1942009ACDC2 /* Puzha RSS FeederTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB34CA37135A1942009ACDC2 /* Puzha RSS Feeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB34CA6F135A1942009ACDC2 /* Build configuration list for PBXNativeTarget "Puzha RSS Feeder" */;
+			buildPhases = (
+				EB34CA34135A1942009ACDC2 /* Sources */,
+				EB34CA35135A1942009ACDC2 /* Frameworks */,
+				EB34CA36135A1942009ACDC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Puzha RSS Feeder";
+			productName = "Puzha RSS Feeder";
+			productReference = EB34CA38135A1942009ACDC2 /* Puzha RSS Feeder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB34CA5B135A1942009ACDC2 /* Puzha RSS FeederTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB34CA72135A1942009ACDC2 /* Build configuration list for PBXNativeTarget "Puzha RSS FeederTests" */;
+			buildPhases = (
+				EB34CA57135A1942009ACDC2 /* Sources */,
+				EB34CA58135A1942009ACDC2 /* Frameworks */,
+				EB34CA59135A1942009ACDC2 /* Resources */,
+				EB34CA5A135A1942009ACDC2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB34CA61135A1942009ACDC2 /* PBXTargetDependency */,
+			);
+			name = "Puzha RSS FeederTests";
+			productName = "Puzha RSS FeederTests";
+			productReference = EB34CA5C135A1942009ACDC2 /* Puzha RSS FeederTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB34CA2F135A1942009ACDC2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EB34CA32135A1942009ACDC2 /* Build configuration list for PBXProject "Puzha RSS Feeder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB34CA2D135A1942009ACDC2;
+			productRefGroup = EB34CA39135A1942009ACDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB34CA37135A1942009ACDC2 /* Puzha RSS Feeder */,
+				EB34CA5B135A1942009ACDC2 /* Puzha RSS FeederTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB34CA36135A1942009ACDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB34CA47135A1942009ACDC2 /* InfoPlist.strings in Resources */,
+				EB34CA50135A1942009ACDC2 /* MainWindow.xib in Resources */,
+				EB34CA56135A1942009ACDC2 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB34CA59135A1942009ACDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB34CA67135A1942009ACDC2 /* InfoPlist.strings in Resources */,
+				EB34CA6A135A1942009ACDC2 /* Puzha_RSS_FeederTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB34CA5A135A1942009ACDC2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB34CA34135A1942009ACDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB34CA4A135A1942009ACDC2 /* main.m in Sources */,
+				EB34CA4D135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.m in Sources */,
+				EB34CA53135A1942009ACDC2 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB34CA57135A1942009ACDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB34CA6C135A1942009ACDC2 /* Puzha_RSS_FeederTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB34CA61135A1942009ACDC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB34CA37135A1942009ACDC2 /* Puzha RSS Feeder */;
+			targetProxy = EB34CA60135A1942009ACDC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB34CA45135A1942009ACDC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB34CA46135A1942009ACDC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB34CA4E135A1942009ACDC2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB34CA4F135A1942009ACDC2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EB34CA54135A1942009ACDC2 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB34CA55135A1942009ACDC2 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		EB34CA65135A1942009ACDC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB34CA66135A1942009ACDC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB34CA6D135A1942009ACDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB34CA6E135A1942009ACDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EB34CA70135A1942009ACDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzha RSS Feeder/Puzha RSS Feeder-Prefix.pch";
+				INFOPLIST_FILE = "Puzha RSS Feeder/Puzha RSS Feeder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB34CA71135A1942009ACDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzha RSS Feeder/Puzha RSS Feeder-Prefix.pch";
+				INFOPLIST_FILE = "Puzha RSS Feeder/Puzha RSS Feeder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB34CA73135A1942009ACDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzha RSS Feeder.app/Puzha RSS Feeder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzha RSS FeederTests/Puzha RSS FeederTests-Prefix.pch";
+				INFOPLIST_FILE = "Puzha RSS FeederTests/Puzha RSS FeederTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EB34CA74135A1942009ACDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Puzha RSS Feeder.app/Puzha RSS Feeder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Puzha RSS FeederTests/Puzha RSS FeederTests-Prefix.pch";
+				INFOPLIST_FILE = "Puzha RSS FeederTests/Puzha RSS FeederTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB34CA32135A1942009ACDC2 /* Build configuration list for PBXProject "Puzha RSS Feeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB34CA6D135A1942009ACDC2 /* Debug */,
+				EB34CA6E135A1942009ACDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB34CA6F135A1942009ACDC2 /* Build configuration list for PBXNativeTarget "Puzha RSS Feeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB34CA70135A1942009ACDC2 /* Debug */,
+				EB34CA71135A1942009ACDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB34CA72135A1942009ACDC2 /* Build configuration list for PBXNativeTarget "Puzha RSS FeederTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB34CA73135A1942009ACDC2 /* Debug */,
+				EB34CA74135A1942009ACDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB34CA2F135A1942009ACDC2 /* Project object */;
+}
