@@ -39,20 +39,20 @@
 		EB34CA3C135A1942009ACDC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB34CA3E135A1942009ACDC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EB34CA40135A1942009ACDC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EB34CA44135A1942009ACDC2 /* Puzha RSS Feeder-Info.plist */ = {isa = PBXFileReference; path = "Puzha RSS Feeder-Info.plist"; sourceTree = "<group>"; };
+		EB34CA44135A1942009ACDC2 /* Puzha RSS Feeder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzha RSS Feeder-Info.plist"; sourceTree = "<group>"; };
 		EB34CA46135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EB34CA48135A1942009ACDC2 /* Puzha RSS Feeder-Prefix.pch */ = {isa = PBXFileReference; path = "Puzha RSS Feeder-Prefix.pch"; sourceTree = "<group>"; };
+		EB34CA48135A1942009ACDC2 /* Puzha RSS Feeder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzha RSS Feeder-Prefix.pch"; sourceTree = "<group>"; };
 		EB34CA49135A1942009ACDC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EB34CA4B135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.h */ = {isa = PBXFileReference; path = Puzha_RSS_FeederAppDelegate.h; sourceTree = "<group>"; };
+		EB34CA4B135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puzha_RSS_FeederAppDelegate.h; sourceTree = "<group>"; };
 		EB34CA4C135A1942009ACDC2 /* Puzha_RSS_FeederAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzha_RSS_FeederAppDelegate.m; sourceTree = "<group>"; };
 		EB34CA4F135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		EB34CA51135A1942009ACDC2 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		EB34CA51135A1942009ACDC2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		EB34CA52135A1942009ACDC2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		EB34CA55135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		EB34CA5C135A1942009ACDC2 /* Puzha RSS FeederTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Puzha RSS FeederTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB34CA64135A1942009ACDC2 /* Puzha RSS FeederTests-Info.plist */ = {isa = PBXFileReference; path = "Puzha RSS FeederTests-Info.plist"; sourceTree = "<group>"; };
+		EB34CA64135A1942009ACDC2 /* Puzha RSS FeederTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Puzha RSS FeederTests-Info.plist"; sourceTree = "<group>"; };
 		EB34CA66135A1942009ACDC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EB34CA68135A1942009ACDC2 /* Puzha RSS FeederTests-Prefix.pch */ = {isa = PBXFileReference; path = "Puzha RSS FeederTests-Prefix.pch"; sourceTree = "<group>"; };
+		EB34CA68135A1942009ACDC2 /* Puzha RSS FeederTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Puzha RSS FeederTests-Prefix.pch"; sourceTree = "<group>"; };
 		EB34CA69135A1942009ACDC2 /* Puzha_RSS_FeederTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Puzha_RSS_FeederTests.h; sourceTree = "<group>"; };
 		EB34CA6B135A1942009ACDC2 /* Puzha_RSS_FeederTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Puzha_RSS_FeederTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
